@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate Sum</title>
+
+    <script>
+        function calculateSum() {
+            let num1 = Number(document.getElementById("num1").value);
+            let num2 = Number(document.getElementById("num2").value);
+
+            alert("Sum = " + (num1 + num2));
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Add Two Numbers</h2>
+
+    <label>Number 1:</label>
+    <input type="text" id="num1">
+    <br><br>
+
+    <label>Number 2:</label>
+    <input type="text" id="num2">
+    <br><br>
+
+    <button onclick="calculateSum()">Calculate</button>
+
+</body>
+</html>

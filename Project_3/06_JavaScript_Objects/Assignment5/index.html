@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uppercase on Blur</title>
+
+    <script>
+        function convertToUppercase() {
+            let input = document.getElementById("text");
+
+            input.value = input.value.toUpperCase();
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Convert Text to Uppercase</h2>
+
+    <input type="text"
+           id="text"
+           placeholder="Enter text"
+           onblur="convertToUppercase()">
+
+</body>
+</html>

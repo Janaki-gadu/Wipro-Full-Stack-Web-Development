@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Image Border</title>
+
+    <style>
+        .repeat-border {
+            border: 20px solid transparent;
+            border-image: url("border.png") 30 round;
+            padding: 20px;
+            width: 300px;
+            margin-bottom: 30px;
+        }
+
+        .stretch-border {
+            border: 20px solid transparent;
+            border-image: url("border.png") 30 stretch;
+            padding: 20px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Image Border - Repeat</h2>
+
+    <div class="repeat-border">
+        Welcome to CSS World
+    </div>
+
+    <h2>Image Border - Stretch</h2>
+
+    <div class="stretch-border">
+        Welcome to CSS World
+    </div>
+
+</body>
+</html>

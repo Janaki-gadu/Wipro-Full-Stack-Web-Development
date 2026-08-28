@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Palindrome Check</title>
+</head>
+
+<body>
+
+    <script>
+        function isPalindrome(str) {
+            let reverse = str.split("").reverse().join("");
+
+            if (str === reverse) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        let text = "madam";
+
+        if (isPalindrome(text)) {
+            document.write(text + " is a palindrome");
+        } else {
+            document.write(text + " is not a palindrome");
+        }
+    </script>
+
+</body>
+</html>

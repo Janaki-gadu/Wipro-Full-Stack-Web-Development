@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phone Number Validation</title>
+
+    <script>
+        function validatePhone() {
+            let phone = document.getElementById("phone");
+
+            if (phone.value.trim() === "") {
+                alert("Phone number must be entered.");
+                phone.focus();
+                return false;
+            }
+
+            let pattern = /^\d{3}[-. ]\d{3}[-. ]\d{4}$/;
+
+            if (!pattern.test(phone.value)) {
+                alert("Enter phone number in the format XXX-XXX-XXXX, XXX.XXX.XXXX or XXX XXX XXXX.");
+                phone.focus();
+                return false;
+            }
+
+            alert("Phone number is valid.");
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Phone Number Validation</h2>
+
+    <form onsubmit="return validatePhone()">
+
+        <label>Phone Number:</label>
+        <input type="text" id="phone" placeholder="XXX-XXX-XXXX">
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Images</title>
+
+    <style>
+        .image {
+            display: none;
+            width: 100%;
+            height: auto;
+        }
+
+        #img1 {
+            display: block;
+        }
+
+        @media screen and (max-width: 900px) {
+            #img1 {
+                display: none;
+            }
+
+            #img2 {
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+            #img2 {
+                display: none;
+            }
+
+            #img3 {
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            #img3 {
+                display: none;
+            }
+
+            #img4 {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Responsive Images</h1>
+
+    <img id="img1" class="image" src="img1.jpg">
+    <img id="img2" class="image" src="img2.jpg">
+    <img id="img3" class="image" src="img3.jpg">
+    <img id="img4" class="image" src="img4.jpg">
+
+</body>
+</html>

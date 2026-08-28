@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Capitalize Words</title>
+</head>
+
+<body>
+
+    <script>
+        function capitalizeWords(str) {
+            return str
+                .split(" ")
+                .map(function(word) {
+                    return word.charAt(0).toUpperCase() + word.slice(1);
+                })
+                .join(" ");
+        }
+
+        let text = "welcome to javascript programming";
+
+        document.write("Original: " + text + "<br>");
+        document.write("Result: " + capitalizeWords(text));
+    </script>
+
+</body>
+</html>
