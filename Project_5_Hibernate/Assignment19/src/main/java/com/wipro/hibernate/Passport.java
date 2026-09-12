@@ -1,0 +1,1 @@
+package com.wipro.hibernate;import jakarta.persistence.*;@Entity @Table(name="PASSPORT") public class Passport{@Id private int id;private String number;public Passport(){}public Passport(int i,String n){id=i;number=n;}}

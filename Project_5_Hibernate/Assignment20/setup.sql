@@ -1,0 +1,1 @@
+USE hibernate_training; CREATE TABLE IF NOT EXISTS EMP20(id INT PRIMARY KEY,name VARCHAR(40),street VARCHAR(60),city VARCHAR(40),state VARCHAR(40),pincode VARCHAR(15));

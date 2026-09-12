@@ -1,0 +1,1 @@
+package com.wipro.spring; public class DefaultMessage { private String message="Spring"; public String getMessage(){return message;} public void setMessage(String m){message=m;} }

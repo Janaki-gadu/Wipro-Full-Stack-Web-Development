@@ -1,0 +1,1 @@
+package com.wipro.spring; public class SetterMessage { private String message; public SetterMessage(){this.message=null;} public void setMessage(String message){this.message=message;} public String getMessage(){return message;} }

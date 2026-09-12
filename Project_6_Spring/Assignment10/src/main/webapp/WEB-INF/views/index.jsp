@@ -1,0 +1,1 @@
+<form method="post" action="submit"><input name="science" placeholder="Science"><input name="maths" placeholder="Maths"><input name="english" placeholder="English"><button type="submit">Submit</button></form>

@@ -1,0 +1,4 @@
+com\wipro\hibernate\HibernateUtil.class
+com\wipro\hibernate\CarOwner.class
+com\wipro\hibernate\CarDetail.class
+com\wipro\hibernate\Main.class

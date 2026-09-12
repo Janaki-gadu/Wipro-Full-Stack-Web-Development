@@ -1,0 +1,1 @@
+<%@ taglib prefix="c" uri="jakarta.tags.core" %><h2>Series</h2><ul><c:forEach var="s" items="${series}"><li>${s}</li></c:forEach></ul>

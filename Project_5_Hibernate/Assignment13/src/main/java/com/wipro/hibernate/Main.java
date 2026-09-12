@@ -1,0 +1,1 @@
+package com.wipro.hibernate;import org.hibernate.*;import java.util.*;public class Main{public static void main(String[]a){try(Session s=HibernateUtil.getSessionFactory().openSession()){s.createQuery("select c.manufacturer from CarDetail c where c.manufacturer like 'V%'",String.class).list().forEach(System.out::println);}HibernateUtil.getSessionFactory().close();}}

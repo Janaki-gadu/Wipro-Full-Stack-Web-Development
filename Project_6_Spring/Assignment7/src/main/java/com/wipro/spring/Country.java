@@ -1,0 +1,1 @@
+package com.wipro.spring; public class Country { private String countryId,countryName; public String getCountryId(){return countryId;} public void setCountryId(String v){countryId=v;} public String getCountryName(){return countryName;} public void setCountryName(String v){countryName=v;} }

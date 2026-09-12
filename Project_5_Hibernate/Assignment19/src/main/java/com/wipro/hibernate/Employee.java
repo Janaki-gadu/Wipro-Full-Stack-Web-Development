@@ -1,0 +1,1 @@
+package com.wipro.hibernate;import jakarta.persistence.*;@Entity @Table(name="EMP19") public class Employee{@Id private int id;private String name;@OneToOne(cascade=CascadeType.ALL)private Passport passport;public Employee(){}public Employee(int i,String n,Passport p){id=i;name=n;passport=p;}}

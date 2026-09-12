@@ -1,0 +1,5 @@
+package com.wipro.hibernate;
+import org.hibernate.*;import org.hibernate.boot.*;import org.hibernate.boot.registry.*;import java.util.*;
+public class HibernateUtil { static SessionFactory sf;
+ public static SessionFactory getSessionFactory() { if(sf==null){Map<String,Object>s=new HashMap<>();s.put("hibernate.connection.driver_class","com.mysql.cj.jdbc.Driver");s.put("hibernate.connection.url","jdbc:mysql://localhost:3306/hibernate_training");s.put("hibernate.connection.username","root");s.put("hibernate.connection.password",System.getenv("DB_PASSWORD"));s.put("hibernate.dialect","org.hibernate.dialect.MySQLDialect");s.put("hibernate.show_sql","true");s.put("hibernate.format_sql","true");s.put("hibernate.hbm2ddl.auto","validate");StandardServiceRegistry r=new StandardServiceRegistryBuilder().applySettings(s).build();sf=new MetadataSources(r).addResource("Emp.hbm.xml").buildMetadata().buildSessionFactory();}return sf;}
+}

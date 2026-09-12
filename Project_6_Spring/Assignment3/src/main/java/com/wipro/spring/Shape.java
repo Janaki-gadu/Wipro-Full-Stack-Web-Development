@@ -1,0 +1,1 @@
+package com.wipro.spring; public abstract class Shape { public abstract void draw(); }

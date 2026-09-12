@@ -1,0 +1,1 @@
+<%@ page contentType="text/html;charset=UTF-8" %><h2>Series</h2><p>${series[0]}</p><p>${series[1]}</p><p>${series[2]}</p><p>${series[3]}</p><p>${series[4]}</p><p>${series[5]}</p><p>${series[6]}</p><p>${series[7]}</p><p>${series[8]}</p><p>${series[9]}</p>

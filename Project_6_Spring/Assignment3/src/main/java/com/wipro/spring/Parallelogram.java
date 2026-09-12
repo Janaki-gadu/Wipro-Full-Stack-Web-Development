@@ -1,0 +1,1 @@
+package com.wipro.spring; public class Parallelogram extends Shape { public void draw(){System.out.println("Drawing Parallelogram");} }

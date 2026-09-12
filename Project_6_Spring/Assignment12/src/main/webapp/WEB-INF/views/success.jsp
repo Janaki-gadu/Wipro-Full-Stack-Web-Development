@@ -1,0 +1,1 @@
+<h2>Student details inserted successfully.</h2>

@@ -1,0 +1,1 @@
+package com.wipro.hibernate;import org.hibernate.*;import java.util.*;public class Main{public static void main(String[]a){try(Session s=HibernateUtil.getSessionFactory().openSession()){List<Object[]>l=s.createQuery("select c.regNo,c.manufacturer from CarDetail c",Object[].class).list();l.forEach(r->System.out.println(r[0]+" "+r[1]));}HibernateUtil.getSessionFactory().close();}}

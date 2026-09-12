@@ -1,0 +1,1 @@
+package com.wipro.hibernate;import jakarta.persistence.*;@Entity @Table(name="EMP20") public class Employee{@Id private int id;private String name;@Embedded private Address address;public Employee(){}public Employee(int i,String n,Address a){id=i;name=n;address=a;}}

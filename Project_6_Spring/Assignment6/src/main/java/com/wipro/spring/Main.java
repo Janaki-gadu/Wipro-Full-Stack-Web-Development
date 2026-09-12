@@ -1,0 +1,1 @@
+package com.wipro.spring; import org.springframework.context.support.ClassPathXmlApplicationContext; public class Main{public static void main(String[]a){try(ClassPathXmlApplicationContext c=new ClassPathXmlApplicationContext("applicationContext.xml")){c.getBean(Student.class).print();c.getBean("student2",Student.class).print();}}}

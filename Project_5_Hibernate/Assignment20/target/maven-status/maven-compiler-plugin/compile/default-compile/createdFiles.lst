@@ -1,0 +1,4 @@
+com\wipro\hibernate\HibernateUtil.class
+com\wipro\hibernate\Employee.class
+com\wipro\hibernate\Address.class
+com\wipro\hibernate\Main.class

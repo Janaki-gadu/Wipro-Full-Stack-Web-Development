@@ -1,0 +1,1 @@
+package com.wipro.spring; public class ConstructorMessage { private String message; public ConstructorMessage(String message){this.message=message;} public String getMessage(){return message;} }

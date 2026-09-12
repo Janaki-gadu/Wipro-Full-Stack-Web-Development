@@ -1,0 +1,1 @@
+package com.wipro.hibernate;import jakarta.persistence.*;@Entity @Table(name="CAR_OWNER") public class CarOwner{@Id private int ownerId;private String ownerName;@OneToOne(cascade=CascadeType.ALL) @JoinColumn(name="REGNO")private CarDetail carDetail;public CarOwner(){}public CarOwner(int i,String n,CarDetail c){ownerId=i;ownerName=n;carDetail=c;}}

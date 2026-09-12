@@ -1,0 +1,1 @@
+package com.wipro.hibernate;import jakarta.persistence.*;@Embeddable public class Address{private String street;private String city;private String state;private String pincode;public Address(){}public Address(String s,String c,String st,String p){street=s;city=c;state=st;pincode=p;}}

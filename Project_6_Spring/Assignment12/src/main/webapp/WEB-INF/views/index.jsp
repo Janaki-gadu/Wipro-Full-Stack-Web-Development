@@ -1,0 +1,1 @@
+<form method="post" action="save"><input name="studentId" placeholder="Student ID" required><input name="studentName" placeholder="Student Name" required><input name="email" placeholder="Email" required><button>Save</button></form>

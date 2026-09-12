@@ -1,0 +1,1 @@
+<%@ taglib prefix="c" uri="jakarta.tags.core" %><h2>Students</h2><table border="1"><tr><th>ID</th><th>Name</th><th>Email</th></tr><c:forEach var="s" items="${students}"><tr><td>${s.STUDENT_ID}</td><td>${s.STUDENT_NAME}</td><td>${s.EMAIL}</td></tr></c:forEach></table>

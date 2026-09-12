@@ -1,0 +1,1 @@
+<h2>Total Marks: ${total}</h2>

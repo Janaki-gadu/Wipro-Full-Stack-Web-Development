@@ -1,0 +1,1 @@
+package com.wipro.spring; public class Test { private String testId,testTitle; private int testMarks; public String getTestId(){return testId;} public void setTestId(String v){testId=v;} public String getTestTitle(){return testTitle;} public void setTestTitle(String v){testTitle=v;} public int getTestMarks(){return testMarks;} public void setTestMarks(int v){testMarks=v;} }
