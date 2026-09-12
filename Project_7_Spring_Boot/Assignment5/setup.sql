@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS hibernate_training;
+USE hibernate_training;
+
+CREATE TABLE IF NOT EXISTS EMPLOYEE_SB (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    designation VARCHAR(100) NOT NULL,
+    salary DOUBLE NOT NULL
+);
